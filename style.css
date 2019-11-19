@@ -6,6 +6,7 @@ html{
 
 body{
     background-color: blanchedalmond;
+    position: absolute;
 }
 
 h1{
@@ -13,14 +14,26 @@ h1{
     font-size: 80px;
     font-family: 'Calistoga', cursive;
     text-transform: uppercase;
+    
 }
 
-.labrador{
-    height: 100vh;
-    background-color: salmon;
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.images{
+    height: 50vh;
+    background: chocolate;
     position: relative;
+    display: block;
 }
 
-#Labtext{
-    position: absolute;
+#labrador{
+    height: 200px;
+    position: relative;
+    transform: translate(5%,10%);
 }
+
+/* add other photos and position them in chocolate box */ 
+
