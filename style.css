@@ -6,7 +6,12 @@ html{
 }
 
 body{
-    background-color: blanchedalmond;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(236, 127, 55, 0.5),
+        rgba(255, 255, 255, 0.5)
+    ),
+    url(media/dog_ball.jpg);
     position: absolute;
 }
 
@@ -16,6 +21,7 @@ h1{
     font-size: 80px;
     font-family: 'Calistoga', cursive;
     text-transform: uppercase;
+    letter-spacing: 3px;
     
 }
 
@@ -24,27 +30,55 @@ h2{
     font-size: 40px;
 }
 
-.images{
-    height: 50vh;      
-    width: 40vw;
-
-    background-image: linear-gradient(
-        to right bottom,
-        rgba(236, 127, 55, 0.5)
-        rgba(255, 255, 255, 0.5)
-    ),
-    url(media/puppies.jpg); /* gradient doesnt work, find out how to make opacity on background image*/
-
-    /*background: chocolate;
+.lab{
+    height: 40vh;      
+    width: 30vw;
+    background: chocolate;
+    display: inline-block; 
     position: relative;
-    display: block;
-    transform: translate(50%, 0%); */
+    border: 5px solid black;
+    left: 1rem;
 }
 
-#labrador{
-    height: 200px;
+#labimage{
+    height: 150px;
     position: relative;
-    transform: translate(5%,10%);
+    left: 6.5rem;
+    top: 5rem; 
+}
+
+.beagle{
+    height: 40vh;      
+    width: 30vw;
+    background: chocolate;
+    display: inline-block; 
+    position: relative;
+    border: 5px solid black;
+    left: 4.5rem;
+}
+
+#beagleimage{
+    height: 150px;
+    position: relative;
+    left: 9rem;
+    top: 5rem; 
+}
+
+.pug{
+    height: 40vh;      
+    width: 30vw;
+    background: chocolate;
+    display: inline-block; 
+    position: relative;
+    border: 5px solid black;
+    left: 7.5rem;
+}
+
+#pugimage{
+    height: 150px;
+    position: relative;
+    left: 9rem;
+    top: 5rem; 
 }
 
 /* add other photos and position them in chocolate box */ 
