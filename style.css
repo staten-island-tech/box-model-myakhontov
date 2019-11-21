@@ -12,13 +12,14 @@ body{
         rgba(255, 255, 255, 0.5)
     ),
     url(media/dog_ball.jpg);
-    position: absolute;
+    position: relative;
+    background-size: cover;
 }
 
 h1{
     width: 100vw;
     text-align: center;
-    font-size: 80px;
+    font-size: 8.5rem;
     font-family: 'Calistoga', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -27,7 +28,7 @@ h1{
 
 h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 4.5rem;
 }
 
 .lab{
@@ -35,16 +36,17 @@ h2{
     width: 30vw;
     background: chocolate;
     display: inline-block; 
-    position: relative;
+    position: relative; /*child element (absolute) is relative to this parent*/
     border: 5px solid black;
-    left: 1rem;
+    left: 2rem;
+    top: 10rem;
 }
 
 #labimage{
-    height: 150px;
-    position: relative;
-    left: 6.5rem;
-    top: 5rem; 
+    height: 22rem;
+    position: absolute; 
+    left: 8.5rem;
+    top: 8rem; 
 }
 
 .beagle{
@@ -54,14 +56,15 @@ h2{
     display: inline-block; 
     position: relative;
     border: 5px solid black;
-    left: 4.5rem;
+    left: 7rem;
+    top: 10rem;
 }
 
 #beagleimage{
-    height: 150px;
-    position: relative;
-    left: 9rem;
-    top: 5rem; 
+    height: 25rem;
+    position: absolute;
+    left: 10rem;
+    top: 7rem; 
 }
 
 .pug{
@@ -71,14 +74,15 @@ h2{
     display: inline-block; 
     position: relative;
     border: 5px solid black;
-    left: 7.5rem;
+    left: 12rem;
+    top: 10rem;
 }
 
 #pugimage{
-    height: 150px;
-    position: relative;
-    left: 9rem;
-    top: 5rem; 
+    height: 25rem;
+    position: absolute;
+    left: 10rem;
+    top: 7rem; 
 }
 
 /* add other photos and position them in chocolate box */ 
